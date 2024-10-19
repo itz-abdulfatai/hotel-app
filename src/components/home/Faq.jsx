@@ -30,18 +30,18 @@ function Faq() {
   return (
     <div className=" min-h-[70vh] py-16 w-full padding-x flex flex-col md:flex-row">
         <div className="w-full">
-            <h2 className=" text-2xl md:text-6xl max-w-52 max-md:text-center mb-10 md:md-20"> frequently asked questions</h2>
+            <h2 className=" text-2xl md:text-6xl max-w-52 max-md:text-center mb-10 md:md-20 capitalize"> frequently asked questions</h2>
             <img src="/room.jpg" className=" md:w-80 rounded-2xl" alt="" />
 
         </div>
-        <div className="w-full flex flex-col items-stretch py-8">
+        <div className="w-full gap-5 flex flex-col items-stretch py-8">
            {
             faqs.map((faq, index ) => (
-                <div key={index} className={` ${activeFaq == index ? 'h-32 glass2' : 'h-auto'} rounded-2xl cursor-pointer flex flex-col justify-between p-3`} onClick={()=> setActiveFaq(index)}>
+                <div key={index} className={` ${activeFaq == index ? 'h-auto glass2' : ''} rounded-2xl cursor-pointer flex flex-col justify-start gap-2 p-3`} onClick={()=> setActiveFaq(index)}>
                 <h3 className=" text-lg flex items-center max-md:justify-between gap-4"> <span> 0{index + 1}</span>{faq.name}</h3>
                 {
                     activeFaq == index && 
-                <p className=" text-sm">{faq.talk}</p>
+                <p className=" text-xs">{faq.talk}</p>
                 }
             </div>
             ))

@@ -14,6 +14,7 @@ export default {
           accent1: '#696969',
           accent2: '#d9d9d9',
           accent3: '#4d5839',
+          glass: 'rgba(0, 0, 0, 0.664)'
 
 
         },
@@ -23,6 +24,8 @@ export default {
           accent1: '#696969',
           accent2: '#d9d9d9',
           accent3: '#4d5839',
+          glass: 'rgba(255, 255, 255, 0.226)'
+
         }
       },
       fontFamily: {

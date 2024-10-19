@@ -1,7 +1,8 @@
 function Activities() {
   return (
     <div className=" min-h-[70vh] py-16 w-full padding-x">
-        <h2 className=" capitalize text-center mb-10 ">Activities</h2>
+        <h2 className=" capitalize text-center mb-10 text-2xl md:text-6xl max-md:text-center">Activities</h2>
+        {/*  max-w-52 max-md:text-center mb-10 md:md-20 capitalize */}
         <div className="w-full md:h-80 flex items-stretch justify-center flex-col md:flex-row gap-10  md:gap-3">
             <div className=" w-full max-w-[400px] cursor-pointer hover:opacity-95 h-96">
                 <img className=" rounded-2xl h-2/3 w-full " src="/hero-bg-small.png" alt="" />

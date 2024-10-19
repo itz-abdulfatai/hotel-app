@@ -16,6 +16,8 @@
     --accent1-color: theme('colors.light.accent1');
     --accent2-color: theme('colors.light.accent2');
     --accent3-color: theme('colors.light.accent3');
+    --color-glass: theme('colors.light.glass')
+
   }
   
   .dark {
@@ -24,6 +26,8 @@
     --accent1-color: theme('colors.dark.accent1');
     --accent2-color: theme('colors.dark.accent2');
     --accent3-color: theme('colors.dark.accent3');
+    --color-glass: theme('colors.dark.glass')
+
     
   }
 
@@ -38,6 +42,13 @@
     backdrop-filter: blur(14px);
     /* border-top: 1px solid rgba(225, 225, 225, 0.4);
     border-left: 1px solid rgba(225, 225, 225, 0.4); */
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+
+  }
+
+  .glass-form {
+    background-color: var(--color-glass);
+    backdrop-filter: blur(15px);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
 
   }

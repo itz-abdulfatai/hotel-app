@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="bg-[var(--primary-color)] text-[var(--secondary-color)] min-h-screen max-container font-montserrat ">
-      <button className=" border border-black fixed bottom-5 right-5 capitalize  bg-[var(--secondary-color)] text-[var(--primary-color)] px-4 py-2 opacity-70 font-bold"
+      <button className=" border border-black fixed bottom-5 right-5 capitalize  bg-[var(--secondary-color)] text-[var(--primary-color)] px-4 py-2 z-50 opacity-70 font-bold"
       onClick={toggleDarkMode}>
         {isDarkMode? 'light':'dark'}
       </button>

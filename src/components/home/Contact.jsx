@@ -1,7 +1,7 @@
 function Contact() {
   return (
-    <div className=" min-h-[70vh] py-20 w-full padding-x">
-        <h2 className=" text-2xl md:text-5xl text-white text-center uppercase mb-10">
+    <div className=" min-h-[70vh] py-5 w-full padding-x">
+        <h2 className=" text-2xl md:text-5xl text-center uppercase">
                contact
             </h2>
             <div className="flex w-full md:h-96 flex-col md:flex-row items-stretch justify-between gap-10">

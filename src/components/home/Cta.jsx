@@ -1,8 +1,8 @@
 function Cta() {
   return (
     <div className=" min-h-[70vh] py-20 w-full padding-x">
-        <div className="w-[80vw] border rounded-3xl hero-lg bg-cover border-[#ffffff54] mx-auto h-96 flex  flex-col justify-around items-center px-20 text-center  ">
-            <h2 className=" text-2xl md:text-5xl text-white text-center uppercase">
+        <div className="w-[80vw] border rounded-3xl hero-lg bg-cover border-[#ffffff54] mx-auto min-h-96 flex  flex-col justify-around items-center px-4 md:px-20 text-center  ">
+            <h2 className=" text-lg md:text-5xl text-white text-center uppercase">
                 wellness weekend refresh and rejuvenate
             </h2>
             <p className="max-w-[550px] text-white max-md:text-xs">
