@@ -1,7 +1,7 @@
 function Hero() {
   return (
-    <div className="hero-sm h-[80vh] md:h-screen bg-cover md:hero-lg flex flex-col gap-5 w-full py-16  rounded-br-3xl rounded-bl-3xl relative ">
-      <h1 className=" md:text-9xl uppercase text-white font-krona md:mt-36 mt-10 sm:ml-14 ml-8  ">
+    <div className="hero-sm h-[80vh] md:h-screen bg-cover md:hero-lg flex flex-col gap-5 w-full md:py-16  py-5 rounded-br-3xl rounded-bl-3xl relative ">
+      <h1 className=" md:text-9xl uppercase text-white font-krona md:mt-36 mt-36 sm:ml-14 ml-8  ">
         HOTEL
       </h1>
       <p className="padding-x text-white md:w-3/5 xl:w-2/5">
@@ -33,15 +33,25 @@ function Hero() {
         </div>
 
       </div>
-      <div className="absolute h-40 md:h-32 glass3 w-[80vw] left-[50%] right-[50%] translate -bottom-20 rounded-xl md:-bottom-20 flex items-center justify-around   ">
-        <div className=" w-2/3 flex justify-center items-center gap-10  ">
+      <div className="md:absolute  md:h-32 glass3 w-[85%]   md:w-[80vw] md:left-[50%] md:right-[50%] md:translate  rounded-xl md:-bottom-20 flex items-center md:justify-around justify-center gap-5 mx-auto max-md:py-5  ">
+        <div className=" md:w-2/3 flex justify-center items-center md:gap-10 gap-2  ">
+
+        <button className=" md:w-44 text-center text-sm px-2 border-r md:text-lg md:font-semibold capitalize text-white ">check in</button>
+        <button className="md:w-44 text-center text-sm px-2 border-r md:text-lg md:font-semibold capitalize text-white">check out</button>
+        <button className="md:w-44 text-center text-sm px-2 border-r md:text-lg md:font-semibold capitalize text-white">guests</button>
+        </div>
+        <input type="text" className=" outline-none  bg-transparent placeholder:text-right placeholder:font-montserrat max-md:w-1/3 text-white px-2 " placeholder="search" />
+      </div>
+
+      {/* <div className="glass3 w-4/5 mx-auto">
+        <div className="">
 
         <button className=" w-44 text-center border-r text-lg font-semibold capitalize text-white ">check in</button>
         <button className=" w-44 text-center border-r text-lg font-semibold capitalize text-white ">check out</button>
         <button className=" w-44 text-center border-r text-lg font-semibold capitalize text-white ">guests</button>
         </div>
         <input type="text" className=" outline-none  bg-transparent placeholder:text-right placeholder:font-montserrat" placeholder="search" />
-      </div>
+      </div> */}
     </div>
   );
 }
