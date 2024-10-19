@@ -64,6 +64,9 @@ export default {
         '.text-accent3': {
           color: 'var(--accent3-color)',
         },
+        'border-primary': {
+          
+        }
         
         
 
