@@ -49,6 +49,12 @@
 
   }
 
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
   .glass3 {
     background-color: #212c0cb9;
     backdrop-filter: blur(53px);

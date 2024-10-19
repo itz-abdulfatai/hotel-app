@@ -7,7 +7,7 @@ function Rooms() {
             <h4 className="capitalize text-lg">luxury forest villa</h4>
             <p className="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias de sit voluptatum!</p>
             <div className="w-full flex items-center justify-between">
-                <button className=" border border-white my-2 mx-4 rounded-full">book</button>
+                <button className=" border border-white py-2 px-4 rounded-full ">book</button>
                 <div className="flex gap-1 items-center">2x <i className='bx bx-group'></i></div>
             </div>
             </div>
@@ -15,7 +15,7 @@ function Rooms() {
             <h4 className="capitalize text-lg">Family suite</h4>
             <p className="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias de sit voluptatum!</p>
             <div className="w-full flex items-center justify-between">
-                <button className=" border border-white my-2 mx-4 rounded-full">book</button>
+                <button className=" border border-white py-2 px-4 rounded-full ">book</button>
                 <div className="flex gap-1 items-center">2x <i className='bx bx-group'></i></div>
             </div>
             </div>
@@ -23,7 +23,7 @@ function Rooms() {
             <h4 className="capitalize text-lg">deluxe room</h4>
             <p className="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias de sit voluptatum!</p>
             <div className="w-full flex items-center justify-between">
-                <button className=" border border-white my-2 mx-4 rounded-full">book</button>
+                <button className=" border border-white py-2 px-4 rounded-full ">book</button>
                 <div className="flex gap-1 items-center">2x <i className='bx bx-group'></i></div>
             </div>
             </div>
@@ -31,7 +31,7 @@ function Rooms() {
             <h4 className="capitalize text-lg">sea view room</h4>
             <p className="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias de sit voluptatum!</p>
             <div className="w-full flex items-center justify-between">
-                <button className=" border border-white my-2 mx-4 rounded-full">book</button>
+                <button className=" border border-white py-2 px-4 rounded-full ">book</button>
                 <div className="flex gap-1 items-center">2x <i className='bx bx-group'></i></div>
             </div>
             </div>
@@ -39,7 +39,7 @@ function Rooms() {
             <h4 className="capitalize text-lg">vacation mini</h4>
             <p className="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestias de sit voluptatum!</p>
             <div className="w-full flex items-center justify-between">
-                <button className=" border border-white my-2 mx-4 rounded-full">book</button>
+                <button className=" border border-white py-2 px-4 rounded-full ">book</button>
                 <div className="flex gap-1 items-center">2x <i className='bx bx-group'></i></div>
             </div>
             </div>
