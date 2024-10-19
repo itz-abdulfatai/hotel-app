@@ -17,14 +17,14 @@ function Hero() {
         </div>
         <div className="flex relative md:left-20   items-stretch gap-3 overflow-hidden max-md:hidden">
           <div className=" w-64 glass-nav rounded-xl h-full flex items-stretch p-2 justify-between gap-2">
-            <img src="src/assets/hero-bg-small.png" alt="" className=" w-[120%] rounded-xl "/>
+            <img src="/hero-bg-small.png" alt="" className=" w-[120%] rounded-xl "/>
             <div>
               <h3 className=" text-base ">Forest spa</h3>
               <p className=" text-xs">Lorem ipsum dolor sit amet consectetur amenda, deleniti eveniet</p>
             </div>
           </div>
           <div className=" w-64 glass-nav rounded-xl h-full flex items-stretch p-2 justify-between gap-2">
-            <img src="src/assets/hero-bg-small.png" alt="" className=" w-[120%] rounded-xl "/>
+            <img src="/hero-bg-small.png" alt="" className=" w-[120%] rounded-xl "/>
             <div>
               <h3 className=" text-base ">Forest spa</h3>
               <p className=" text-xs">Lorem ipsum dolor sit amet consectetur amenda, deleniti eveniet</p>

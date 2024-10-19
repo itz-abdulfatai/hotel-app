@@ -23,7 +23,7 @@ function Contact() {
                 </div>
                 </div>
                 <div className="md:w-2/3 w-full flex justify-stretch items-stretch  rounded-2xl border ">
-                <img src="src/assets/map.svg" alt="" className=" rounded-2xl w-full h-full cursor-pointer duration-700"  />
+                <img src="/map.svg" alt="" className=" rounded-2xl w-full h-full cursor-pointer duration-700"  />
                 </div>
             </div>
     </div>
